@@ -1,40 +1,61 @@
-.cards {
-    list-style-type: square;
+.card-widget {
+    width: 400px;
+}
+
+.card-list {
+    display: flex;
+    margin-bottom: 3px;
+    list-style: none;
+    padding-left: 0;
 }
 
 .card {
     width: 40px;
     height: 40px;
-    margin: 3px;
+    margin: 2px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.Visa {
+.visa {
     background-image: url(../images/Visa.png);
 }
 
-.MasterCard {
+.mastercard {
     background-image: url(../images/MasterCard.png);
 }
 
-.AmericanExpress {
+.americanExpress {
     background-image: url(../images/AmericanExpress.png);
 }
 
-.Discover {
+.discover {
     background-image: url(../images/Discover.png);
 }
 
-.JCB {
+.jcb {
     background-image: url(../images/JCB.png);
 }
 
-.DinersClub {
+.dinersClub {
     background-image: url(../images/DinersClub.png);
 }
 
-.Mir {
+.mir {
     background-image: url(../images/Mir.png);
 }
 
+.check-field {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.input {
+    width: 68%;
+    margin-right: 2%;
+}
+
+.btn {
+    width: 30%;
+}

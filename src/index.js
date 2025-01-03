@@ -1,1 +1,1 @@
-import Widget from "./widget/widget.js";
+import './css/style.css';
