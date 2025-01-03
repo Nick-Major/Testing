@@ -1,0 +1,40 @@
+.cards {
+    list-style-type: square;
+}
+
+.card {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Visa {
+    background-image: url(../images/Visa.png);
+}
+
+.MasterCard {
+    background-image: url(../images/MasterCard.png);
+}
+
+.AmericanExpress {
+    background-image: url(../images/AmericanExpress.png);
+}
+
+.Discover {
+    background-image: url(../images/Discover.png);
+}
+
+.JCB {
+    background-image: url(../images/JCB.png);
+}
+
+.DinersClub {
+    background-image: url(../images/DinersClub.png);
+}
+
+.Mir {
+    background-image: url(../images/Mir.png);
+}
+
