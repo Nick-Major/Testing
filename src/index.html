@@ -6,6 +6,31 @@
     <title>Testing</title>
 </head>
 <body>
-    <div class="container"></div>
+    <h3>Check your credit card number</h3>
+  <div class="container">
+    <ul class="cards">
+      <li class="card Visa"></li>
+      <li class="card MasterCard"></li>
+      <li class="card AmericanExpress"></li>
+      <li class="card Discover"></li>
+      <li class="card JCB"></li>
+      <li class="card DinersClub"></li>
+      <li class="card Mir"></li>
+    </ul>
+
+    <div class="field">
+      <input  class="input-field" type="text" placeholder="Credit card number">
+      <button type="submit" class="btn">Click to validate</button>
+    </div>
+
+    <div class="message">
+      <div>
+        <span class="valid">Card is valid.</span>
+      </div>
+      <div>
+        <span class="invalid">Invalid card number.</span>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

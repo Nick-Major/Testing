@@ -1,77 +1,122 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f1f1f1;
     padding: 20px;
     font-size: 16px;
     color: #333;
 }
 
-.card-widget {
-    width: 400px;
-    border: 2px solid black;
-    padding: 10px;
-    background-color: gainsboro;
-}
-
-.card-list {
+.cards {
     display: flex;
-    margin-bottom: 3px;
-    list-style: none;
+    flex-wrap: wrap;
     padding-left: 0;
+    list-style: none;
+    margin-bottom: 3px;
 }
 
 .card {
     width: 40px;
     height: 40px;
-    margin: 2px;
+    margin: 3px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.dark-card {
-    filter: grayscale(100%);
-    opacity: 0.5;
-}
-
-.visa {
+.Visa {
     background-image: url(../images/Visa.png);
 }
 
-.mastercard {
+.MasterCard {
     background-image: url(../images/MasterCard.png);
 }
 
-.americanExpress {
+.AmericanExpress {
     background-image: url(../images/AmericanExpress.png);
 }
 
-.discover {
+.Discover {
     background-image: url(../images/Discover.png);
 }
 
-.jcb {
+.JCB {
     background-image: url(../images/JCB.png);
 }
 
-.dinersClub {
+.DinersClub {
     background-image: url(../images/DinersClub.png);
 }
 
-.mir {
+.Mir {
     background-image: url(../images/Mir.png);
 }
 
-.check-field {
+.field {
     display: flex;
-    width: 100%;
-    justify-content:space-between;
 }
 
-.input {
-    width: 68%;
-    margin-right: 2%;
+.input-field {
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.input-field:focus {
+    border: 1px solid #87afff;
+    outline: none;
+    box-shadow: 0 0 5px #87afff;
+    transition: box-shadow 0.3s ease;
+}
+
+.input-field, .btn {
+    padding: 8px 10px;
+    border-radius: 5px;
 }
 
 .btn {
-    width: 30%;
-    background-color: limegreen;
+    background-color: #66c469;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: -15px;
+}
+
+.message {
+    width: 100%;
+    height: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.valid, .invalid {
+    display: none;
+}
+
+.valid {
+    color: #4CAF50;
+}
+
+.invalid {
+    color: #FF0000;
+}
+
+.show_message {
+    display: block;
+  }
+
+.dark_card {
+    filter: grayscale(100%);
+    opacity: .3;
 }
