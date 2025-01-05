@@ -8,7 +8,8 @@
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --config webpack.dev.js",
     "lint": "eslint .",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "e2e": "jest --testPathPattern=./e2e/ -- runInBand"
   },
   "devDependencies": {
     "@babel/cli": "^7.26.4",
